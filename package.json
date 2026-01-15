@@ -22,7 +22,6 @@
     "eslint": "^9.39.2",
     "eslint-plugin-vue": "~10.6.2",
     "globals": "^17.0.0",
-    "sharp": "^0.34.5",
     "vite": "beta",
     "vite-plugin-vue-devtools": "^8.0.5"
   }

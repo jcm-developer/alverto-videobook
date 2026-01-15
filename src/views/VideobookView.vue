@@ -1,13 +1,15 @@
 <script setup>
 import { ref, computed } from 'vue'
 
-// Import local video
-import videobookVideo from '@/assets/videobook/videobook.mp4'
+// TODO: Add video URL here (YouTube, Vimeo, or Google Drive)
+// Example YouTube: 'https://www.youtube.com/embed/VIDEO_ID'
+// Example Drive: 'https://drive.google.com/file/d/FILE_ID/preview'
+const videoUrl = ref('')
 
-// Video URL - using imported local file
-const videoUrl = ref(videobookVideo)
 const isEmbedVideo = computed(() => {
-    return videoUrl.value.includes('youtube.com') || videoUrl.value.includes('vimeo.com')
+    return videoUrl.value.includes('youtube.com') ||
+        videoUrl.value.includes('vimeo.com') ||
+        videoUrl.value.includes('drive.google.com')
 })
 
 // Video state
