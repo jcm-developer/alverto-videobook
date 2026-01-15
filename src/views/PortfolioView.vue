@@ -200,7 +200,6 @@ const closeLightbox = () => {
     justify-content: center;
     z-index: 1000;
     cursor: pointer;
-    padding: 40px;
 }
 
 .lightbox-close {
