@@ -44,15 +44,9 @@ const closeLightbox = () => {
             <!-- Window bar with dots -->
             <div class="window-bar">
                 <div class="window-dots">
-                    <span class="dot red">
-                        <span class="dot-icon">×</span>
-                    </span>
-                    <span class="dot yellow">
-                        <span class="dot-icon">−</span>
-                    </span>
-                    <span class="dot green">
-                        <span class="dot-icon">+</span>
-                    </span>
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
                 </div>
             </div>
 
@@ -119,24 +113,6 @@ const closeLightbox = () => {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.dot-icon {
-    opacity: 0;
-    font-size: 10px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.5);
-    line-height: 1;
-    transition: opacity 0.2s;
-}
-
-.window-dots:hover .dot-icon {
-    opacity: 1;
 }
 
 .dot.red {
