@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import PortfolioView from '../views/PortfolioView.vue'
+import BookView from '../views/BookView.vue'
 
 const router = createRouter({
   // Using hash mode for GitHub Pages compatibility
@@ -7,8 +7,8 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'portfolio',
-      component: PortfolioView,
+      name: 'book',
+      component: BookView,
     },
     {
       path: '/videobook',
