@@ -363,7 +363,8 @@ const submitForm = async () => {
     gap: 40px;
   }
 
-  .photo-section {
+  /* Form first, photo second on mobile */
+  .form-section {
     order: -1;
   }
 }

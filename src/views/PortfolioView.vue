@@ -264,5 +264,24 @@ const closeLightbox = () => {
     .nav-link {
         font-size: 12px;
     }
+
+    /* Lightbox mobile fixes */
+    .lightbox {
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .lightbox-image {
+        max-width: 95%;
+        max-height: 80vh;
+        margin: auto;
+    }
+
+    .lightbox-close {
+        top: 10px;
+        right: 15px;
+        font-size: 36px;
+    }
 }
 </style>
